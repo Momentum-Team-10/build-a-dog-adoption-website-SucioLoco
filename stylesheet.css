@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+.title {
+    background-color: #004175;
+    color: white;
+    padding: 25px 100px 25px 25px;
+    font-family: "Open Sans", Times, serif;
+    border-bottom: 5px solid #89DEEF;
+    margin: -10px 100px 0px;
+}
