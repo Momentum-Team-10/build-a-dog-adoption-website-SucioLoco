@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+.dogpic {
+    width: 350px;
+}
 .title {
     background-color: #004175;
     color: white;
@@ -8,4 +11,7 @@
     font-family: "Open Sans", Times, serif;
     border-bottom: 5px solid #89DEEF;
     margin: -10px 100px 0px;
+}
+.beans {
+    margin: 0px
 }
