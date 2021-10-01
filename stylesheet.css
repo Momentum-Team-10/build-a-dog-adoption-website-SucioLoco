@@ -2,13 +2,57 @@
     box-sizing: border-box;
 }
 .dogpic {
-    width: 350px;
+    width: 300px;
 }
-.title {
+.body{
+    background: white;
+    margin: -10px 50px 50px;
+}
+.title{ 
+    display: flex;
+    justify-content: center;
     background-color: #004175;
+    flex-flow: row wrap;
     color: white;
-    padding: 25px 100px 25px 25px;
-    font-family: "Open Sans", Times, serif;
+    padding: 25px 800px 25px 25px;
+    font-family: "Oswald", Times, sans-serif;
     border-bottom: 5px solid #89DEEF;
-    margin: -10px 100px 0px;
+    margin: -10px 50px 0px;
 }
+div {
+    display: inline-block;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.second{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+}
+.third{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+}
+li{
+    font-family: "Open Sans";
+    display: inline;
+    list-style-type: none;
+    border-radius: 10px;
+    background-color: #89deef;
+    padding: 0px;
+}
+.outer{
+    flex-flow: column wrap;
+    margin: 5px;
+}
+.inner{
+  flex-flow: column wrap;
+ 
+  margin: 25px;
+}
+
+
+
