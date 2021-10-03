@@ -50,8 +50,18 @@ li{
 }
 .inner{
   flex-flow: column wrap;
- 
   margin: 25px;
+}
+.footer{
+    display: flex;
+    padding: 0px;
+    height: 350px;
+    justify-content: center;
+    background-image: url (starter_files/images/donate.jpg), (starter_files/images/location.png), (starter_files/images/volunteer.jpg)
+    background: linear-gradient(
+    rgba(188, 128, 237),
+    rgba(188, 128, 237)
+    )
 }
 
 
