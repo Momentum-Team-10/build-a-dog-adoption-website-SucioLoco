@@ -1,42 +1,43 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background: white;
+    margin: 0 75px;
+}
 .dogpic {
     width: 300px;
 }
-.body{
-    background: white;
-    margin: -10px 50px 50px;
-}
 .title{ 
-    display: flex;
     justify-content: center;
     background-color: #004175;
-    flex-flow: row wrap;
     color: white;
-    padding: 25px 800px 25px 25px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: "Oswald", Times, sans-serif;
     border-bottom: 5px solid #89DEEF;
-    margin: -10px 50px 0px;
+    margin: 0;
+    height: 120px;
 }
-div {
-    display: inline-block;
+.title h1{
+    margin: 0;
 }
-.first{
+.dog-row {
     display: flex;
-    justify-content: space-evenly; 
+    width: 33%;
 }
-.second{
-    display: flex;
+.dog {
+    margin: 5px;
+}
+.dog h3{
     margin: 0px;
-    justify-content: space-between;
 }
-.third{
-    display: flex;
-    margin: 0px;
-    justify-content: space-between;
+.traits{
+    padding: 0;
+    margin: 0;
 }
-li{
+li {
     font-family: "Open Sans";
     display: inline;
     list-style-type: none;
@@ -44,15 +45,7 @@ li{
     background-color: #89deef;
     padding: 0px;
 }
-.outer{
-    flex-flow: column wrap;
-    margin: 5px;
-}
-.inner{
-  flex-flow: column wrap;
-  margin: 25px;
-}
-.footer{
+.footer {
     display: flex;
     padding: 0px;
     height: 350px;
@@ -62,7 +55,7 @@ li{
     rgba(188, 128, 237),
     rgba(188, 128, 237)
     )
-}
+
 
 
 
