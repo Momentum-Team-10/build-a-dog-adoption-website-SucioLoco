@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 body {
     background: white;
@@ -8,17 +9,22 @@ body {
 .dogpic {
     width: 300px;
 }
-.title{ 
-    justify-content: center;
+.header{ 
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    font-family: "Oswald", Times, sans-serif;
+
+    
+
+    /* border-bottom: 5px solid #89DEEF; */
+    /* justify-content: center;
     background-color: #004175;
     color: white;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: "Oswald", Times, sans-serif;
-    border-bottom: 5px solid #89DEEF;
+    
+    
     margin: 0;
-    height: 120px;
+    height: 120px; */
 }
 .title h1{
     margin: 0;
@@ -45,7 +51,7 @@ li {
     background-color: #89deef;
     padding: 0px;
 }
-.footer {
+/* .footer {
     display: flex;
     padding: 0px;
     height: 350px;
@@ -54,7 +60,7 @@ li {
     background: linear-gradient(
     rgba(188, 128, 237),
     rgba(188, 128, 237)
-    )
+    ) */
 
 
 
